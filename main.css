@@ -1,0 +1,59 @@
+body{
+	width: auto;
+	height: auto;
+	background:darkgreen;
+	border:solid 10px black;
+	padding: 10px;
+	border-radius:10px;
+	text-align: center;
+	color:white;
+}
+
+img{
+	max-width:100%;
+	max-height:100%;
+}
+
+.tableau{
+	width: 750px;
+	height: 150px;
+	position: absolute;
+	left: 15px;
+	top: 210px;
+}
+
+.foundations{
+	width: 450px;
+  height: 150px;
+  position: absolute;
+  left: 310px;
+  top: 20px
+}
+
+.deck{
+	width: 250px;
+	height: 150px;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+.pile{
+	width: 72px;
+  position: absolute;
+  height: 100px;
+  background-repeat: no-repeat;
+  border: 1px dotted rgb(204, 204, 204);
+}
+
+.card{
+	width: 70px;
+  height: 100px;
+  background-color: #FFF;
+  padding-top: 0px;
+  padding-left: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
